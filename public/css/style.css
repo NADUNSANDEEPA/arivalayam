@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.footer_h5{
+    color: #FFFFFF;
+    font-family: "Rubik", Sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.footer-title{
+    color: #FFFFFF;
+    font-family: "Rubik", Sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2em;
+}
+
+.sub_header {
+    color: #a4161b;
+    font-family: "Rubik", Sans-serif;
+    font-weight: 600;
+    line-height: 1em;
+}
+
+.product_title {
+    font-size:20px;  
+    font-family: 'Rubik', Sans-serif; 
+    font-weight:600;
+}
+
+
+
+.default_boder_radius {
+    border-radius: 11px;
+}
+
+.default_btn {
+    font-family: "Rubik", Sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    background: linear-gradient(to right, #a4161b, #380505);
+    color: #ffffff;
+    border-radius: 4px;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    transition: transform 0.3s; 
+}
+
+.default_btn:hover {
+    background: linear-gradient(to right, #8b1115, #1f1c18);
+    color: #ffffff;
+    transform: scale(1.1); 
+}
+
+.view_more_btn {
+    font-family: "Rubik", Sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    background: linear-gradient(to right, #a4161b, #380505);
+    color: #ffffff;
+    border-radius: 4px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    transition: transform 0.3s; 
+}
+
+.view_more_btn:hover {
+    background: linear-gradient(to right, #8b1115, #1f1c18);
+    color: #ffffff;
+    transform: scale(1.1); 
+}
+
+.default_p {
+    color: #232323;
+    font-family: "Rubik", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+.align-default-btn {
+    text-align: left;
+}
+
+@media (max-width: 767px) {
+    .align-default-btn {
+        text-align: center;
+    }
+}
+
+.default_text_red{
+    color:#a4161b;
+}
+
+/* support section */
+
+.support_card{
+    background-color: #ffffff;
+    border-radius: 20px; 
+}
+
+.support_card:hover {
+    background-color: #F3EAEA; 
+    border-radius: 20px; 
+   
+}
+
+.support-img-zoom {
+    width: 78%;
+    transition: transform 0.3s ease; 
+}
+  
+.support-img-zoom:hover {
+    transform: scale(1.1); 
+}
+  
+
+/* Impact Report */
+
+.bg-report-container{
+    background-image: url('../img/report-bg.webp'); 
+    background-size: cover; 
+    background-position: center;
+}
+
+.report-container{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    
+}
+
+.card_number{
+    color: #232323;
+    font-family: "Rubik", Sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.report_card_title{
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.report_card {
+   background-color: #FFFFFF;
+   border-radius: 16px;
+}
+
+.report_card:hover {
+    background-color: #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+
+
+/* cooparate support */
+
+.coparate-image-zoom {
+    transition: transform 0.3s ease; 
+    width: 100%;
+}
+
+.coparate-image-zoom:hover {
+    transform: scale(1.1);
+    background-color: #1f1c18;
+}
+
+
+
+.profile_btn {
+    font-family: "Rubik", Sans-serif;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    background: linear-gradient(to right, #a4161b, #380505);
+    color: #ffffff;
+    border-radius: 25px;
+    padding-top: 1.3%;
+    padding-bottom: 1.3%;
+    transition: transform 0.3s; 
+}
+
+.profile_btn:hover {
+    background: linear-gradient(to right, #8b1115, #1f1c18);
+    color: #ffffff;
+    transform: scale(1.1); 
+}
+
+/* nav bar */
+
+.social-media-btn{
+    border-radius: 50%;
+    background: linear-gradient(to right, #a4161b, #a4161b);
+    width: 40px;
+    height: 40px;
+    border: none;
+    transition: transform 0.3s; 
+}
+
+.social-media-btn:hover{
+    background: linear-gradient(to right, #8b1115, #9e0606);
+    transform: scale(1.1); 
+}
+
+.contact-us-btn {
+    border-radius: 50%;
+    border: 2px solid #a4161b;
+    width: 40px;
+    background-color: white;
+    height: 40px;
+    transition: transform 0.3s, background-color 0.3s; /* Added background-color transition */
+}
+
+.contact-us-btn:hover {
+    background: linear-gradient(to right, #8b1115, #9e0606);
+    transform: scale(1.1); 
+}
+
+.contact-us-btn-i {
+    color: #9e0606;
+    transition: color 0.3s; 
+}
+
+.contact-us-btn:hover .contact-us-btn-i { 
+    color: #fff700;
+}
+
+.social-media-div{
+    text-align: right;
+}
+
+.text-icon{
+    font-size: 19px;
+}
+
+.contact-us-text{
+    font-size: 20px; 
+    font-weight:600; 
+    color:#9e0606;
+}
+
+.border-div{
+    border: none;
+}
+
+@media screen and (max-width: 768px) {
+    .social-media-div{
+        text-align: center;
+    }
+
+    .text-icon{
+        font-size: 17px;
+    }
+
+    .contact-us-text{
+        font-size: 17px; 
+    }
+
+    .contact-us-btn {
+        display: none;
+    }
+
+    .contact-us-btn-i {
+        font-size: 19px;
+    }
+
+    .border-div{
+        border-bottom: 1px solid rgb(236, 236, 236);
+        box-shadow: rgba(196, 196, 196, 0.1) 0px 10px 10px -10px;
+        padding-bottom: 12px;
+        text-align: center;
+    }
+}
+
+.nav-btn {
+    color: #9e0606;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 500;
+    transition: color 0.3s; 
+}
+
+.nav-btn:hover {
+    color: #9e0606;
+    background-color: #F7F4E1;
+    transform: scale(1.1); 
+}
+
+.custom-dropdown-menu .dropdown-item {
+    color: #F7F4E1;
+    font-family: "Rubik", Sans-serif;
+    font-weight: 400;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    font-size: 19px;
+}
+
+.custom-dropdown-menu .dropdown-item:hover {
+    background-color: transparent; 
+    color: #fff700; 
+    font-size: 20px;
+}
+
+.nav-list-align{
+    padding-left: 6%;
+}
+
+.home-padding {
+    padding-top: 0%;
+}
+
+@media screen and (max-width: 768px) {
+    .home-padding {
+        padding-top: 5%;
+    }
+
+    .nav-list-align{
+        padding-left: 0%;
+    }
+}
